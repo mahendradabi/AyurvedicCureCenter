@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "71384435289",
+    "firebase_url": "https://ayurvediccurecenter-6f608.firebaseio.com",
+    "project_id": "ayurvediccurecenter-6f608",
+    "storage_bucket": "ayurvediccurecenter-6f608.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:71384435289:android:7f0b7f705401a08a",
+        "android_client_info": {
+          "package_name": "com.mahi.ayurvediccurecenter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "71384435289-pvtlgh7v7qhn9ce3h42rpcetc03c1ck5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mahi.ayurvediccurecenter",
+            "certificate_hash": "E28C049EFCF014FF180F9C41E8FC46FE3C0F6DF0"
+          }
+        },
+        {
+          "client_id": "71384435289-l4ucc2m8qd3352fta1t95lails5kd95b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFV6IaBUbn-higE72cHJWsntqnTpneDvo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "71384435289-l4ucc2m8qd3352fta1t95lails5kd95b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
