@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!-- Load the toolbar here -->
+    <include
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ScrollView
+        android:layout_above="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<TextView
+    android:layout_marginTop="10dp"
+    android:gravity="center"
+    android:id="@+id/newstitle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="News Title"
+    android:textSize="17sp"
+    android:textStyle="bold" />
+    <TextView android:visibility="gone"
+    android:layout_marginTop="10dp"
+    android:gravity="center"
+    android:id="@+id/date"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="date" />
+  <ImageView
+      android:layout_marginLeft="5dp"
+      android:layout_marginRight="5dp"
+      android:id="@+id/newsimg"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" />
+
+    <TextView
+        android:padding="5dp"
+        android:textSize="17sp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/newsdescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="News Description" />
+   <LinearLayout
+       android:visibility="visible"
+       android:padding="10dp"
+       android:orientation="horizontal"
+       android:gravity="center"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/sharenews"
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Share"
+        android:drawableLeft="@android:drawable/ic_menu_share" />
+       <ImageView
+           android:id="@+id/whatsapp"
+           android:layout_marginLeft="5dp"
+           android:layout_marginBottom="10dp"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:src="@drawable/whatsapp"/>
+   </LinearLayout>
+</LinearLayout>
+    </ScrollView>
+	
+	  <com.google.android.gms.ads.AdView
+                        android:id="@+id/adView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="center"
+                        ads:adSize="BANNER"
+                        ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
+    </com.google.android.gms.ads.AdView>
+</RelativeLayout>
+</LinearLayout>
